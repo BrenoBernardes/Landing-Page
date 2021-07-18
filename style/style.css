@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #043660;
+  background-image: url(../img/background-body.png);
+}
+
+#headContent h1 {
+  font-family: 'League Spartan Bold', sans-serif;
+  text-align: center;
+  font-size: 100px;
+  text-shadow: 1rem 1rem 1rem #010b13;
+  color: #ffffff;
+  margin: 10px 0 0 10px;
+}
+
+.mainSection {
+  display: flex;
+  background: #043660;
+  align-content: center;
+  padding-bottom: 3rem;
+  background-image: url(../img/background-body.png);
+}
+
+.mainSection img {
+  width: 400px;
+  height: 400px;
+  margin: 100px -120px;
+}
+
+.container h2 {
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.container {
+  margin: 0 0 0 150px;
+  text-align: center;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.textUpper {
+  text-transform: uppercase;
+}
+
+.textStyle {
+  text-transform: uppercase;
+  background-color: #961418;
+}
+
+#containerElement {
+  background-color: #ffffff;
+  color: #961418;
+  border-radius: 20px;
+  padding: 1rem;
+  background-position: left;
+}
+
+#formUser {
+  margin: 100px 0 0 100px;
+  font-family: 'Barlow Condensed', sans-serif;
+  padding: 2rem;
+  position: inherit;
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  height: 30rem;
+  background-color: #e2edf1;
+  align-items: center;
+  border-radius: 100px 0 0 100px;
+  color: #043660;
+}
+
+#formUser h2 {
+  text-align: center;
+}
+
+#formInput {
+  font-family: 'Barlow Condensed', sans-serif;
+  line-height: 2rem;
+  text-align: center;
+}
+
+#checkbox {
+  font-size: 10px;
+}
+
+.formBorder {
+  background-color: white;
+  text-align: center;
+  width: 13rem;
+  height: 2rem;
+  border: solid 2px black;
+  border-radius: 12px;
+  transition: .4s;
+}
+
+.sendButton {
+  font-size: 20px;
+  margin-top: 1rem;
+  background-color: #698fbb;
+  color: black;
+  border-radius: 12px;
+  transition: .4s;
+  height: 5rem;
+  width: 13rem;
+}
+
+.sendButton:hover {
+  background-color: #043660;
+  color: white;
+}
+
+#foot {
+  text-align: center;
+  padding: .1rem;
+  color: #ffffff;
+  background: #961418;
+  background-image: url(../img/background-footer.png);
+}
+
+#footName {
+  font-family: 'League Spartan Bold';
+}
+
+.footLink {
+  text-decoration: none;
+  font-family: 'League Spartan Bold';
+  color: #ffffff;
+}

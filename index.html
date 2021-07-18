@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Breno Bernardes">
+  <meta name="description" content="Landing Page">
+  <link rel="stylesheet"  href="./style/style.css">
+  <link href="https://allfont.net/allfont.css?fonts=league-spartan" rel="stylesheet" type="text/css" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,200;1,200&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,200;0,800;1,200&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,200;0,500;0,800;1,200&display=swap');
+  </style>
+  <link rel="icon" type="imagem/png" href="./img/logo.png" />
+  <title>Mind The English</title>
+</head>
+<body>
+  <header id="headContent">
+      <h1>Mind The English</h1>
+  </header>
+
+  <section class="mainSection">
+
+    <div>
+      <img src="./img/area-de-trabalho.png" alt="" srcset="">
+    </div>
+
+    <div class= "container">
+      <h2><span class="textUpper">Curso de Inglês para Devs</span></h2>
+      <p>Caiu no mundo da programação e ainda sofre com o inglês?</p>
+      <p><span class="textUpper">Aproveite as <span class="textStyle"> condições especiais</span> de lançamento do curso de inglês para Devs.</span></p>
+      <p>Já quer começar? Baixe o ebook com os termos em inglês mais comuns no universo da programação!</p>
+      <div id="containerElement"><span class="textUpper">Vagas limitadas</span></div>
+    </div>
+
+    <div id="formUser">
+
+      <div>
+        <h2><span class="textUpper" >Dê</span> o primeiro passo e <span class="textUpper" >garanta</span> o ebook</h2>
+      </div>
+      
+      <div>
+        <form action="#" id="formInput">
+          <label for="name">Nome*</label>
+          <input type="text" id="nameUser" class="formBorder" placeholder="Nome Completo" required:"required">
+  
+          <label for="tel">Telefone*</label>
+          <input type="tel" id="telUser" class="formBorder" placeholder="(xx) xxxxx-xxxx" required:"required">
+  
+          <label for="email">Email*</label>
+          <input type="email" id="emailUser" class="formBorder" placeholder="email@email.com" required:"required">
+
+          <input type="checkbox" name="" id="">
+          <label for="" id="checkbox">Eu topo receber e-mail com promoções</label>
+
+          <button type="submit" onclick="sendForm()" class="sendButton">Quero receber o ebook</button>
+
+          <script src="./script/script.js"></script>
+        </form>
+
+      </div>
+    </div>
+  </section>
+  
+  <footer id="foot">
+    <p id="footName">Mind The English Copyright &copy; 2021</p>
+    <p><a href="https://www.linkedin.com/in/breno-bernardes/"  target="_blank" class="footLink">Criado por Breno Bernardes</a></p>
+  </footer>
+</body>
+</html>
